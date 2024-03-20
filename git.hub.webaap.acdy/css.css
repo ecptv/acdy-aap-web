@@ -1,0 +1,75 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advertisement {
+    flex: 1;
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+.news {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-box {
+    flex: 1 0 200px;
+    background-color: #d9d9d9;
+    padding: 10px;
+}
+
+.announcements {
+    flex: 1;
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+.certificates {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.certificate {
+    flex: 1 0 100px;
+    background-color: #d9d9d9;
+    padding: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #e6e6e6;
+}
