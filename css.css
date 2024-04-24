@@ -89,7 +89,7 @@ footer {
 }
 
 .left, .right {
-    flex-basis: `20`%;
+    flex-basis: 20%;
 }
 
 .center {
@@ -220,7 +220,7 @@ footer {
 }
 
 button{
-Background-color : #4
+Background-color : none;
  padding: 10px 20px;
  border: none;
   cursor : pointer;
@@ -260,7 +260,9 @@ Background-color : #4
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
     position: relative;
+    display: inline-block;
 }
 
 .card h3 {

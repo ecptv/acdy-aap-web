@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-// Adaugă un eveniment de click la buton
+//-------------------------- eveniment de click la buton------------------------------------------------------------------------
        document.getElementById("redirectButton").addEventListener("click", function() {
            // Redirecționează utilizatorul la o altă pagină web
            window.location.href = "https://www.alta-pagina.com";
@@ -99,3 +99,8 @@ document.getElementById("new-card-form").addEventListener("submit", function(eve
         alert("Te rog completează ambele câmpuri pentru a adăuga un card.");
     }
 });
+
+
+//-------------------------------------CARD ADDING-----------------------------------------------------
+
+
