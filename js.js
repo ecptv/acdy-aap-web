@@ -103,4 +103,19 @@ document.getElementById("new-card-form").addEventListener("submit", function(eve
 
 //-------------------------------------CARD ADDING-----------------------------------------------------
 
+// Funcție pentru crearea unui nou card
+function creareCard() {
+    // Creează un element div nou, care va fi cardul
+    var card = document.createElement("div");
+    card.className = "card";
+    card.textContent = "Acesta este un card"; // Textul cardului
 
+    // Adaugă cardul la container
+    var container = document.getElementById("container");
+    container.appendChild(card);
+}
+
+// Adaugă un event listener pentru butonul "Adaugă card"
+document.getElementById("adauga-card").addEventListener("click", function() {
+    creareCard(); // La click, apelează funcția creareCard
+});
